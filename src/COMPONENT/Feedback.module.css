@@ -1,0 +1,69 @@
+.feedbackcontainer {
+  max-width: 600px;
+  margin: 3rem auto; /* Changed margin-top to 3rem */
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  width: 90%; /* Make it flexible for smaller screens */
+}
+
+.feedbackcontainer h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  font-family: 'Kaushan Script', cursive; /* Added font-family */
+}
+
+.feedbackcontainer .form-label {
+  font-weight: bold;
+}
+
+.feedbackcontainer .form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.feedbackcontainer .btn {
+  margin-top: 1rem;
+  font-family: 'Kaushan Script', cursive;
+  padding: 10px 20px;
+  background-color: #FAFAFA;
+  color: #000000; 
+  border: 2px solid #000000;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .feedbackcontainer {
+    padding: 1rem; /* Less padding on smaller screens */
+  }
+
+  .feedbackcontainer h2 {
+    font-size: 1.25rem; /* Slightly smaller heading */
+  }
+
+  .feedbackcontainer .form-control {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .feedbackcontainer {
+    margin: 1rem; /* Less margin on very small screens */
+  }
+
+  .feedbackcontainer h2 {
+    font-size: 1.2rem; /* Smaller heading */
+  }
+
+  .feedbackcontainer .form-control {
+    font-size: 0.85rem; /* Smaller input text */
+  }
+}

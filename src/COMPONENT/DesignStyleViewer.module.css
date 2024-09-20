@@ -1,0 +1,177 @@
+
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 4rem;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .tabList {
+    display: flex;
+    justify-content: center; /* Center the tabs */
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px 20px;
+    background-color: #FAFAFA;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .activeTab {
+    background: #007bff;
+    color: white;
+  }
+  
+  .trendList {
+    display: flex;
+    justify-content: center; /* Center the trends */
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .trend {
+    padding: 5px 10px;
+    background-color: #FAFAFA;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .activeTrend {
+    background: #28a745;
+    color: white;
+  }
+  
+  .designGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .cardImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardContent {
+    padding: 15px;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .productList {
+
+    list-style: none; /* Remove bullet points */
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .cost {
+    font-weight: bold;
+    color: #007bff; /* Change color for emphasis */
+  }
+
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .review {
+    
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .review p {
+    margin: 5px 0;
+  }
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .tab {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .heading {
+      font-size: 20px;
+    }
+  
+    .cardTitle {
+      font-size: 16px;
+    }
+  
+    .cardDescription {
+      font-size: 12px;
+    }
+  
+    .cost {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tab {
+      padding: 6px 12px;
+    }
+  
+    .heading {
+      font-size: 18px;
+    }
+  
+    .trend {
+      font-size: 12px;
+      padding: 4px 8px;
+    }
+  
+    .designGrid {
+      grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+  }
+  

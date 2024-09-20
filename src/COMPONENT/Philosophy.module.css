@@ -1,0 +1,79 @@
+/* General Styling */
+.phil {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.philTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.philContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img2 {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  max-width: 800px;
+  text-align: left;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .philContent {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .img2 {
+    margin-right: 2rem;
+    margin-bottom: 0;
+    max-width: 50%;
+  }
+
+  .text {
+    max-width: 50%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .phil {
+    padding: 4rem;
+  }
+
+  .philTitle {
+    font-size: 3rem;
+  }
+
+  .img2 {
+    max-width: 600px;
+  }
+
+  .text {
+    font-size: 1.3rem;
+  }
+}

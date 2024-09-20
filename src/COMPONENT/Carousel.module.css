@@ -1,0 +1,14 @@
+.custom-carousel {
+    position: relative;
+  }
+  
+  .custom-image {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  }
+  
+  .carousel-inner {
+    height: 50vh; /* Ensure the inner container respects the height */
+  }
+  

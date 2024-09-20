@@ -1,0 +1,42 @@
+<site-map>
+    <navigation-item>Home</navigation-item>
+    <navigation-item>Design Styles</navigation-item>
+    <design-categories>
+        <category-name>Category</category-name>
+        <rooms>
+            <room>Living Room</room>
+            <room>Kitchen</room>
+            <room>Bedroom</room>
+            <room>Bathroom</room>
+        </rooms>
+        <trends>
+            <trend>Contemporary</trend>
+            <trend>Elegant</trend>
+            <trend>Rustic</trend>
+            <trend>Minimalist</trend>
+        </trends>
+    </design-categories>
+    <navigation-item>Gallery</navigation-item>
+    <gallery-categories>
+        <gallery-item>All</gallery-item>
+        <gallery-item>Living Room</gallery-item>
+        <gallery-item>Bed</gallery-item>
+        <gallery-item>Kitchen</gallery-item>
+        <gallery-item>Lighting</gallery-item>
+        <gallery-item>Others</gallery-item>
+        <gallery-item>Designers</gallery-item>
+    </gallery-categories>
+    <navigation-item>Product</navigation-item>
+    <product-categories>
+        <product-item>All</product-item>
+        <product-item>Furniture</product-item>
+        <product-item>Kitchen</product-item>
+        <product-item>Lighting</product-item>
+        <product-item>Décor</product-item>
+        <product-item>Bathroom</product-item>
+    </product-categories>
+    <navigation-item>About Us</navigation-item>
+    <navigation-item>Contact Us</navigation-item>
+    <navigation-item>Feedback</navigation-item>
+    <navigation-item>Site Map</navigation-item>
+</site-map>

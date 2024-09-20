@@ -1,0 +1,14 @@
+.site-map{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    margin-top: 50px;
+}
+ul {
+    padding-left: 20px;
+    list-style: circle;
+}
+li {
+    margin-bottom: 10px;
+}

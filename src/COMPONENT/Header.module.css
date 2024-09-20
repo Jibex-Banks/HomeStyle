@@ -1,0 +1,124 @@
+.header {
+    display: flex;
+    opacity: 0.6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background: linear-gradient(to right, #EEEED9, #FFFFCA);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 10px;
+    padding: 0 20px;
+    /* flex-grow: 1; */
+}
+
+.navUl {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.navLi {
+   
+    position: relative;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #4A4A4A;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+    background-color: #4A4A4A;
+    color: #F5F5DC;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.activeLink {
+    background-color: #4A4A4A;
+    font-weight: bold;
+    color: #FFFFF0;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #F5F5DC;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.navLi:hover .dropdown {
+    display: block;
+}
+
+.dropdownLi {
+    list-style: none;
+    padding: 10px;
+   
+}
+
+.dropdownLi a {
+    text-decoration: none;
+    color: #4A4A4A;
+    background-color: #F5F5DC;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 50px;
+    width: auto;
+}
+
+
+.logoImg {
+   height: 204px;
+  width: auto;
+}
+.icon {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 10px;
+    gap: 15px; 
+    width: 100%; 
+    font-size: 28px; 
+    color: #4A4A4A;
+    cursor: pointer;
+}
+
+
+.icons:hover {
+    color: #FFFFF0; 
+}

@@ -1,0 +1,76 @@
+
+/* Top of the Week Section */
+.topOfTheWeek {
+    padding: 50px 0;
+    background-color: #F8F8F8;
+}
+
+.topWeekTitle {
+    font-family: 'Kaushan Script', cursive;
+        font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.topWeekContent {
+    font-family: 'Katibeh', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topWeekImage {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.topWeekText {
+    width: 45%;
+    text-align: left;
+}
+
+.topWeekText h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.topWeekText p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Button {
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px 20px;
+    background-color: #FAFAFA;
+    color: #000000; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Button1 {
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px 20px;
+    background-color: #FAFAFA;
+    color: #000000; 
+    border: 2px solid #000000 ;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #E0E0E0;
+}
+
+
+.Button1:hover {
+    background-color: #E0E0E0;
+}
